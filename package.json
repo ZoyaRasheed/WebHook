@@ -1,0 +1,22 @@
+{
+  "name": "webhook-test-repo",
+  "version": "1.0.0",
+  "description": "Test repository for GitHub webhook testing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"✅ Tests passed\" && exit 0",
+    "build": "echo \"🔨 Building application...\" && mkdir -p dist && echo 'console.log(\"Hello World!\");' > dist/app.js",
+    "lint": "echo \"🔍 Linting code...\" && echo \"✅ No linting errors found\""
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["webhook", "test", "github-actions"],
+  "author": "Test User",
+  "license": "MIT"
+}
