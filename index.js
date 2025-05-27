@@ -2,6 +2,7 @@
 console.log('🚀 Test application starting...');
 console.log('✅ Application ready for deployment');
 console.log('🚀 Test application is running...');
+console.log('🚀 Test application is running...');
 
 
 export default function hello() {
